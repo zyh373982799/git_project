@@ -1,0 +1,24 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {margin: 0;padding: 0}
+*{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button {font-size: 100%;font-weight: normal}
+ul,ol {list-style-type: none;list-style-image: none}
+li {list-style: none}
+html,body {-webkit-user-select: none;-moz-user-select: none;user-select: none;font-family: "microsoft yahei",'Helvetica Neue',Roboto;height: 100%;}
+a,img {-webkit-touch-callout: none}
+a {text-decoration: none;color: #333}
+#gameDiv{position:relative;width: 100%;height: 100%;}
+
+/********游戏须要的样式**********/
+a {-webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;}
+section,.page{position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: url(../resource/assets/bg2.png) no-repeat;background-size: 100%;}
+.page1{background-image: url(../resource/assets/bg1.png);}
+.startbtn{width: 10rem;height: 3rem;background: url(../resource/assets/start_01.png) no-repeat;background-size: 100%;display: block;margin: 0 auto;margin-top: 19rem;}
+.page2{display: none;}
+.title{width: 9rem;height: 4rem;background: url(../resource/assets/title.png) no-repeat;background-size: 100%;margin: 4rem auto;margin-bottom: 3rem;}
+.gamebtn{width: 8rem;height: 8rem;background: url(../resource/assets/start1.png) no-repeat;background-size: 100%;margin: 0 auto;display: block;}
+.again{width: 8rem;height: 3rem;background: url(../resource/assets/trymore.png) no-repeat;background-size: 100%;margin: 0 auto;display: block;margin-top: 2.5rem;}
+.gamebtn.down{background-image: url(../resource/assets/start2.png)}
+.page3{display: none;}
+.board{width: 10rem;height: 5rem;background: url(../resource/assets/bg_gameover.png) no-repeat;background-size: 100%;margin: 2rem auto;text-align: center;padding: 2rem 1rem;color: #333;font-size: 1.2rem;}
+.board span{}
+.board span#time{color: #ff0000;font-size: 2rem;vertical-align: sub;}
